@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 17/08/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: NANDYALA MALYADRI REDDY
+###  ROLL NO : 212223100037
+###  DEPARTMENT: CSE CYBER SECUIRITY
 
 
 
@@ -86,14 +86,22 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+`````
+ while (1)
+  {
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+	  HAL_Delay(2000);
+	  HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+	  HAL_Delay(2000);
 
+  }
 
-
-
+`````
 
 ## OUTPUT  :
  
- 
+ ![Screenshot 2024-08-17 120040](https://github.com/user-attachments/assets/c9797de1-7355-4181-8ac4-762d5f4f0597)
+
  
  
 ## Result :
